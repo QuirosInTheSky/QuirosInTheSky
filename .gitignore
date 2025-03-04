@@ -1,0 +1,55 @@
+# Dependencias y archivos del sistema
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de compilación
+dist/
+build/
+*.log
+
+# Archivos multimedia pesados
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
+*.raw
+*.psd
+videos/**/*.mp4
+videos/**/*.mov
+assets/videos/*
+!assets/videos/QuirosInTheSky_optimized.mp4
+assets/raw/
+
+# Archivos grandes
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Carpetas de recursos originales
+raw/
+original/
+footage/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*.bak
+backup/ 
